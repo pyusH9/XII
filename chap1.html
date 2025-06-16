@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 1: Database Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chap1.html">Chapter 1</a></li>
+        <li><a href="chap2.html">Chapter 2</a></li>
+        <li><a href="chap3.html">Chapter 3</a></li>
+        <li><a href="chap4.html">Chapter 4</a></li>
+        <li><a href="chap5.html">Chapter 5</a></li>
+        <li><a href="chap6.html">Chapter 6</a></li>
+        <li><a href="chap7.html">Chapter 7</a></li>
+        <li><a href="chap8.html">Chapter 8</a></li>
+        <li><a href="qna.html">QnA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Chapter 1: Database Management System</h1>
+    <section>
+      <h2>Data and Information</h2>
+      <p>Data refers to raw facts and figures without context. Information is processed data that is meaningful and useful for decision-making.</p>
+
+      <h3>Features of Information</h3>
+      <ul>
+        <li>Accuracy</li>
+        <li>Timeliness</li>
+        <li>Completeness</li>
+        <li>Relevance</li>
+        <li>Accessibility</li>
+      </ul>
+
+      <h3>Database and Its Purpose</h3>
+      <p>A database is an organized collection of data, typically stored electronically. Its main purpose is to manage, retrieve, and store data efficiently and securely.</p>
+
+      <h3>Terminologies in Database</h3>
+      <ul>
+        <li><strong>Table:</strong> A collection of related data organized in rows and columns.</li>
+        <li><strong>Field:</strong> A column in a table that represents a data attribute.</li>
+        <li><strong>Record:</strong> A row in a table containing related fields.</li>
+        <li><strong>Tuple:</strong> Another term for a record.</li>
+        <li><strong>Object:</strong> A real-world entity stored in a database with attributes and behaviors.</li>
+        <li><strong>Keys:</strong> Unique identifiers for records (e.g., Primary Key, Foreign Key).</li>
+      </ul>
+
+      <h3>Data Dictionary</h3>
+      <p>A data dictionary is a repository of metadata, storing information about the structure, constraints, and content of the database.</p>
+
+      <h3>Database Management System (DBMS)</h3>
+      <p>DBMS is software that interacts with end users and databases to capture and analyze data.</p>
+      <h4>Objectives</h4>
+      <ul>
+        <li>Efficient data management</li>
+        <li>Minimize data redundancy</li>
+        <li>Ensure data integrity and security</li>
+        <li>Enable data sharing and multi-user environment</li>
+      </ul>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Improved data sharing</li>
+        <li>Data security</li>
+        <li>Data consistency</li>
+        <li>Backup and recovery</li>
+      </ul>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>High cost</li>
+        <li>Complexity</li>
+        <li>Performance overhead</li>
+      </ul>
+
+      <h3>Types of Database Models</h3>
+      <ul>
+        <li>Hierarchical Model</li>
+        <li>Network Model</li>
+        <li>Relational Model</li>
+        <li>Entity-Relationship Model</li>
+      </ul>
+
+      <h3>Integrity Constraints and Types</h3>
+      <ul>
+        <li><strong>Domain Constraint:</strong> Restricts the values of attributes.</li>
+        <li><strong>Entity Integrity:</strong> Ensures primary key is not NULL.</li>
+        <li><strong>Referential Integrity:</strong> Ensures foreign keys reference valid records.</li>
+        <li><strong>Key Constraints:</strong> Enforces uniqueness of data.</li>
+      </ul>
+
+      <h3>Normalization</h3>
+      <p>Normalization is the process of organizing data to reduce redundancy and improve data integrity.</p>
+      <h4>Normal Forms</h4>
+      <ul>
+        <li><strong>1NF:</strong> Eliminate repeating groups.</li>
+        <li><strong>2NF:</strong> Remove partial dependency.</li>
+        <li><strong>3NF:</strong> Remove transitive dependency.</li>
+      </ul>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Reduces data redundancy</li>
+        <li>Improves data integrity</li>
+      </ul>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Complex queries</li>
+        <li>Slower performance</li>
+      </ul>
+
+      <h3>Centralized and Distributed Database</h3>
+      <p><strong>Centralized:</strong> Data is stored in a single location. <br><strong>Distributed:</strong> Data is stored across multiple sites.</p>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Centralized: Easier to maintain, better data integrity</li>
+        <li>Distributed: Better availability and fault tolerance</li>
+      </ul>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Centralized: Single point of failure</li>
+        <li>Distributed: Complex to manage</li>
+      </ul>
+      <h4>Comparison</h4>
+      <p>Distributed databases offer scalability and fault tolerance, while centralized databases are simpler and cheaper to implement.</p>
+
+      <h3>Database Security</h3>
+      <p>Database security involves protecting the database from unauthorized access or malicious threats.</p>
+      <h4>Challenges</h4>
+      <ul>
+        <li>SQL injection</li>
+        <li>Data breaches</li>
+        <li>Insider threats</li>
+      </ul>
+      <h4>Security Measures</h4>
+      <ul>
+        <li>User authentication</li>
+        <li>Encryption</li>
+        <li>Access controls</li>
+      </ul>
+      <h4>Roles of DBA</h4>
+      <ul>
+        <li>Database design</li>
+        <li>Performance tuning</li>
+        <li>Security management</li>
+        <li>Backup and recovery</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Practical Topics</h2>
+      <h3>DDL and DML Languages</h3>
+      <p>DDL (Data Definition Language) is used to define database structures. DML (Data Manipulation Language) is used to manipulate data within the database.</p>
+
+      <h3>SQL Data Types</h3>
+      <ul>
+        <li>CHAR</li>
+        <li>VARCHAR</li>
+        <li>BINARY</li>
+        <li>VARBINARY</li>
+        <li>TINYBLOB</li>
+        <li>TINYTEXT</li>
+        <li>TEXT</li>
+        <li>LONGTEXT</li>
+        <li>ENUM</li>
+        <li>BIT</li>
+        <li>TINYINT</li>
+        <li>BOOLEAN</li>
+        <li>INTEGER</li>
+        <li>FLOAT</li>
+        <li>DOUBLE</li>
+        <li>DECIMAL</li>
+        <li>DATE</li>
+        <li>DATETIME</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Computer Science Course. All rights reserved.</p>
+  </footer>
+</body>
+</html>
