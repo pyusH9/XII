@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5; 
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #D3B79C; 
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #B59A82; 
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #D8C29D, #E3D7B9); 
+    color: #3E2A47; 
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn-start {
+    background-color: #F2BC77; /* Muted yellow for button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-start:hover {
+    background-color: #E6A541; 
+}
+
+/* Course Overview Section */
+.overview {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FFFFFF; 
+    margin: 20px 0;
+}
+
+.overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overview p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overview .btn-overview {
+    background-color: #F2BC77; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.overview .btn-overview:hover {
+    background-color: #E6A541; 
+}
+
+/* Highlights Section */
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #F9F9F9; 
+    text-align: center;
+}
+
+.highlight-card {
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-card h3 {
+    font-size: 1.8em;
+    color: #3E2A47; 
+    margin-bottom: 15px;
+}
+
+.highlight-card p {
+    font-size: 1em;
+    color: #7D6A47; 
+}
+
+/* Footer */
+footer {
+    background-color: #D3B79C; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
